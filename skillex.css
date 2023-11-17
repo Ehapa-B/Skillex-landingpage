@@ -350,6 +350,7 @@ li a:hover {
   /* height: 13vh; */
   display: flex;
   gap: 1.5rem;
+  margin-left: 200px;
  
 }
 
@@ -375,7 +376,7 @@ li a:hover {
   height: 2.5rem;
 }
 
-/* FOoter styles ends here */
+/* Footer styles ends here */
 
 
     
