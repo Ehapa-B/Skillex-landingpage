@@ -7,12 +7,41 @@ body {
   background-image: linear-gradient(#f9e8e6, #e7f4e5);
 }
 
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: brown; */
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.head1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 90%;
+  height: 80px;
+  justify-content: space-between;
+  align-content: center;
+ 
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  vertical-align: top;
+}
 
 h2{
     font-family: sans-serif;
-    font-size: 2.5rem;
-    padding-left: 125px;
-    padding-top: 20px;
+    font-size: 1.5rem;
+    padding-left: 105px;
+    padding-top: 10px;
 }
 b{
   color: gray;
@@ -43,7 +72,7 @@ h2 {
   
 
 }
-nav {
+/* nav {
   display: flex;
   padding: 100px;
   justify-content: space-between;
@@ -52,11 +81,17 @@ nav {
   font-weight: 600;
   font-family: monospace;
   font-size: 17px;
-}
+} */
 .links {
   align-items: start;
   justify-content: center;
   width: 50%;
+}
+
+.link1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #9e9ea7;
 }
 
 button{
@@ -73,25 +108,25 @@ p a{
 }
 .primary{
     background: rgb(0, 0, 129);
-    width: 150px;
-    margin-right: 50px;
-    letter-spacing: 2px;
-    font-size: 15px;
-    padding: 1px 5px;
-    margin-top: 20px;
+    width: 102px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
-.primary a{
+/* .primary a{
   text-decoration: none;
   color: white;
   font-weight: 600;
-}
+} */
 .links ul {
-  list-style: none;
+ list-style: none; 
   display: flex;
   gap: 25px;
-}
-.links a {
+} 
+.link a {
   text-decoration: none;
   color: black;
 }
@@ -288,9 +323,10 @@ span {
 
 .p5{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    /* margin-top: 650px; */
-    margin-left: 600px;
+    font-size: 30px;
+    margin-top: 100px; 
+    margin-left: 350px;
+
 }
 /* main styles ends here*/
 
